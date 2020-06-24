@@ -39,6 +39,28 @@
                grid-template-columns: 100% !important;
                margin-top: 15%;
           }
+
+          #container7 {
+               width: 85%;
+               margin-top: 20%;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article{
+               grid-template-columns: 100%;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article img{
+               width: 100%;
+               grid-area: 1/1/2/2;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article aside .starContainerDeals img{
+               width: 7%;
+          }
+
+          #container7 #specialDealsContainer button {
+               margin-top: 15%;
+          }
 }
 
 @media only screen 
@@ -50,6 +72,14 @@
 
           main aside:last-child section button{
                padding: 15px;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article aside .contentDeals article {
+               height: 10vh;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article aside .contentDeals article img{
+               width: 100%;
           }
 }
 
@@ -68,5 +98,38 @@
           #container6 {
                grid-template-columns: repeat(2, 55%) !important;
                margin-top: 8%;
+          }
+
+          #container7 {
+               width: 85%;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article{
+               grid-template-columns: 100%;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article img{
+               width: 100%;
+               grid-area: 1/1/2/2;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article aside h3{
+               font-size: 2em;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article aside .contentDeals article p{
+               font-size: 1.3em;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article aside h4{
+               font-size: 1.4em;
+          }
+
+          #container7 #specialDealsContainer .boxDeals article aside .starContainerDeals img{
+               width: 4%;
+          }
+
+          #container7 #specialDealsContainer button {
+               margin-top: 10%;
           }
 }
