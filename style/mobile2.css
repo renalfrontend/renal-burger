@@ -35,9 +35,10 @@
                box-shadow: -1px 14px 43px -29px rgba(255,150,150,0.94);
           }
 
-          /* #container5 section{
-
-          } */
+          #container6 {
+               grid-template-columns: 100% !important;
+               margin-top: 15%;
+          }
 }
 
 @media only screen 
@@ -62,5 +63,10 @@
 
           main aside:last-child section{
                justify-content: flex-start;
+          }
+
+          #container6 {
+               grid-template-columns: repeat(2, 55%) !important;
+               margin-top: 8%;
           }
 }
