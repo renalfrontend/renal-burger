@@ -1,0 +1,66 @@
+@media only screen 
+     and (min-width : 200px)
+     and (max-width : 600px) {
+          main {
+               grid-template-columns: 100% !important;
+               align-content: center !important;
+          }
+
+          main aside img{
+               width: 80%;
+               height: 100%;
+          }
+
+          main aside:last-child h2{
+               font-size: 1.5em;
+               text-align: center;
+          }
+
+          main aside:last-child {
+               display: block;
+               text-align: center;
+               margin-top: 10%;
+          }
+
+          header main section:first-of-type{
+               margin: 0px;
+          }
+
+          #container5 {
+               width: 80%;
+               grid-template-columns: 35% 35% !important;
+               justify-self: center;
+               margin-top: 10%;
+               padding: 30px 0px;
+               box-shadow: -1px 14px 43px -29px rgba(255,150,150,0.94);
+          }
+
+          #container5 section{
+
+          }
+}
+
+@media only screen 
+     and (min-width : 300px)
+     and (max-width : 350px) {
+          main aside:last-child h2{
+               font-size: 1.3em;
+          }
+
+          main aside:last-child section button{
+               padding: 15px;
+          }
+}
+
+@media only screen 
+     and (min-width : 768px)
+     and (max-width : 1024px) {
+          main aside img{
+               width: 80%;
+               height: 45%;
+          }
+
+          main aside:last-child section{
+               justify-content: flex-start;
+          }
+}

@@ -1,0 +1,120 @@
+/* ------------------------- CONTENT 2  ------------------------- */
+
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+body {height: 2000px;}
+
+header {
+     overflow: hidden;
+}
+
+main {
+     display: grid;
+     grid-template-columns: 50% 50% !important;
+}
+
+main aside {
+     height: 100%;
+}
+
+main aside:first-child {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex: 1;
+}
+
+main aside:last-child {
+     display: grid;
+     align-items: flex-end;
+     flex: 2;
+}
+
+main aside:last-child h2{
+     color: #4D2E06;
+     text-shadow: 3px 3px 2px white;
+     font-family: 'Alfa Slab One', cursive;
+     font-size: 2.5em;
+     grid-column-end: span 1;
+}
+
+main aside:last-child section {
+     grid-column-end: span 5;
+     display: grid;
+     grid-template-columns: repeat(2, auto);
+     align-content: flex-start;
+     justify-content: center;
+     gap: 20px;
+}
+
+main aside:last-child section button{
+     margin-top: 10%;
+     padding : 15px 30px 15px 30px;
+     box-sizing: border-box;
+     cursor: pointer;
+     border-radius: 50px;
+     outline: none;
+     border: 0px;
+     color: white;
+     font-size: 0.9em;
+}
+
+main aside:last-child section button:first-child{
+     background-color: red;
+}
+
+main aside:last-child section button:last-child{
+     background-color: transparent;
+     border: 2px solid red;
+     transition: 0.3s;
+}
+
+main aside:last-child section button:last-child:hover{background-color: red;}
+
+main aside img{
+     width: 70%;
+     height: 70%;
+} 
+
+#container5 {
+     width: 70%;
+     height: auto;
+     border-radius: 70px;
+     margin: auto;
+     margin-top: 3%;
+     box-shadow: -1px 14px 48px -33px rgba(255,150,150,0.94);
+     display: grid;
+     grid-template-columns: repeat(5, 15%) !important;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     padding: 15px 0px 15px 0px;
+}
+
+#container5 section{
+     width: 65%;
+     height: auto;
+     justify-self: center;
+     opacity: 0.4;
+     transition: 0.3s;
+     cursor: pointer;
+}
+
+#container5 section img{
+     width: 100%;
+     height: 100%;
+}
+
+#container5 section:hover {
+     opacity: 1;
+}
+
+#container5 section p{
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     font-family: sans-serif;
+}
