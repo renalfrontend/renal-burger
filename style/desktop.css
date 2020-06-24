@@ -12,7 +12,6 @@ header {
      height: 90vh;
      background: url('../img/real/background.png');
      position: relative;
-     overflow: hidden;
      padding-top: 2vh;
      z-index: 999;
 }
