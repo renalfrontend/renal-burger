@@ -10,7 +10,7 @@
 }
 
 body {
-     height: 3000px;
+     height: auto;
 }
 
 header {
@@ -191,7 +191,7 @@ main aside img{
 
 #container7 {
      width: 75%;
-     height: 300px;
+     height: auto;
      margin: auto;
      display: block !important;
      text-align: center;
@@ -295,4 +295,41 @@ main aside img{
      color: white;
      border: 0px;
      font-size: 1.1em;
+}
+
+#container8 {
+     width: 100%;
+     background: url('../img/real/background.png');
+     margin-top: 6%;
+     display: grid;
+     grid-template-columns: repeat(4, 20%) !important; 
+     justify-content: center;
+     gap: 30px;
+     padding: 20px;
+     box-sizing: border-box;
+}
+
+#container8 section {
+     height: 100%;
+     background-color: white;
+     border-radius: 30px;
+     box-shadow: -1px 14px 48px -33px rgba(255,150,150,0.94);
+     padding: 20px;
+     box-sizing: border-box;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+}
+
+#container8 section img {
+     width: 100%;
+}
+
+#container8 section h4 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.3em;
+     margin: 10px;
+}
+
+footer aside:nth-child(1) section:last-child p{
+     margin: 20px 0px 20px 5%;
 }
