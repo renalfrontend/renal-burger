@@ -161,6 +161,7 @@ main aside img{
      font-size: 1.2em;
      font-family: 'Roboto', sans-serif;
      color: #333;
+     text-transform: capitalize;
 }
 
 #container6 section div:last-child h3:hover{text-decoration: underline;}
