@@ -12,6 +12,8 @@ section.forEach(element => {
 
           this.parentElement.classList.add('active');
      }) 
+
+     section[0].parentElement.classList.add('active')     
      
 })
 

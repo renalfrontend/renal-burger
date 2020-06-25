@@ -16,7 +16,7 @@ header {
      position: relative;
      padding-top: 2vh;
      z-index: 999;
-     overflow: auto;
+     overflow: hidden;
 }
 
 nav {
@@ -41,7 +41,6 @@ nav ul {
      justify-content: space-evenly;
      list-style: none;
      padding: 0px;
-     /* display: none; */
 }
 
 nav ul li{margin-left: 4%;}
