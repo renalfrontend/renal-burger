@@ -333,3 +333,5 @@ main aside img{
 footer aside:nth-child(1) section:last-child p{
      margin: 20px 0px 20px 5%;
 }
+
+.active {opacity: 1 !important;}
