@@ -267,6 +267,8 @@ header main section:last-of-type img{
 #container2 section:last-child article{
      width: 31%;
      text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
 }
 
 #container2 section:last-child article img {
@@ -346,8 +348,12 @@ header main section:last-of-type img{
      background-color: #FDC74D;
 }
 
+#container3 section:last-child{text-align: center;}
+
 #container3 section:last-child img{
-     width: 100%;
+     width: 90%;
+     height: 75vh !important;
+     text-align: center;
 }
 
 #container4 {

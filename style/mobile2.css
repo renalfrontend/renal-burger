@@ -61,6 +61,11 @@
           #container7 #specialDealsContainer button {
                margin-top: 15%;
           }
+
+          #container8 {
+               grid-template-columns: 80% !important;
+               margin-top: 15%;
+          }
 }
 
 @media only screen 
@@ -131,5 +136,9 @@
 
           #container7 #specialDealsContainer button {
                margin-top: 10%;
+          }
+
+          #container8 {
+               grid-template-columns: repeat(2, 40%) !important;
           }
 }

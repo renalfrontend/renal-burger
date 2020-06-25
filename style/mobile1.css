@@ -140,8 +140,14 @@
                left: -20%;
           }
 
+          #container3 section:last-child img{height: 55vh !important;}
+
           #container4 img:nth-child(2){display: none;}
           #container4 img:nth-child(3){display: none;}
+
+          footer{
+               background-position: 0px;
+          }
 
           footer aside:nth-child(1) {
                grid-template-columns: 100%;
