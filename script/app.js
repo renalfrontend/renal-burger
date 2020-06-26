@@ -14,7 +14,6 @@ class GetData {
 class Application {
      app() {
           const type = Array.from(document.querySelectorAll('#container5 section img'));
-          const menu = [option];
 
           type.forEach((typeMenu,index) => {
                typeMenu.parentElement.setAttribute('data-food', `${Object.keys(option)[index]}`);
@@ -78,7 +77,7 @@ class ValidationError {
            try {
                const data = await value;
                new ShowData().show(data);
-               return data
+               return data;
           }catch(err) {
                console.log(err);
           }
