@@ -146,7 +146,7 @@
           #container4 img:nth-child(3){display: none;}
 
           footer{
-               background-position: 0px;
+               background-position: 0px !important;
           }
 
           footer aside:nth-child(1) {
@@ -266,6 +266,10 @@
           }
           #container4 img:nth-child(2){display: none;}
           #container4 img:nth-child(3){display: none;}
+
+          footer {
+               background-position: 0px;
+          }
 
           footer aside:first-child {
                grid-template-columns: 100%;

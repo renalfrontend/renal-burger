@@ -21,8 +21,13 @@
                padding-top: 30px;
           }
 
+          main section:last-child h1{
+               font-size: 2em;
+          }
+
           #containerV3_1{
                padding: 25px;
+               height: auto !important;
           }
 
           #containerV3_1 section {
@@ -32,6 +37,7 @@
           #containerV3_1 section aside{ 
                margin-bottom: 50px;
           }
+          
 
           #containerV3_1 section .contentImg {
                height: 300px;
@@ -48,6 +54,15 @@
 
           .contentStory {
                padding: 0px !important;
+          }
+
+          #containerV3_2 aside {
+               margin-top: 20%;
+               grid-template-columns: 100%;
+          }
+
+          #containerV3_2 section{
+               margin-top: 5%;
           }
 }
 
@@ -75,5 +90,12 @@
 
           main section:last-child p{font-size: 0.9em;}
 
-          /* #containerV3_1 section .contentImg {height: 420px;} */
+          #containerV3_2 aside {
+               grid-template-columns: repeat(2, 50%);
+               margin-top: 10%;
+          }
+
+          #containerV3_2 section img{
+               width: 60%;
+          }
 }
