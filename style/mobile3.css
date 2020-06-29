@@ -64,6 +64,10 @@
           #containerV3_2 section{
                margin-top: 5%;
           }
+
+          #containerV3_2 aside p{ 
+               font-size: 1.5em;
+          }
 }
 
 @media only screen
