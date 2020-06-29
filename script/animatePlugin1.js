@@ -7,7 +7,7 @@ const timeline2 = new TimelineMax();
 timeline1.from('#imgHeader',1, {x : 200, opacity : 0, ease: Back.easeIneaseIn},0)
 timeline1.from('#sectionMain',1, {x : -200, opacity : 0}, 0)
 
-timeline2.to('header nav', 0.5, {width:"100%", top : 0, ease: Expo.easeOuteaseOut},0)
+timeline2.to('header nav', 0.5, {width:"100%", top : 0, ease: Expo.easeOuteaseOut, marginTop : 0},0)
 animate(timeline2,'#container1', false, 0.4, 0, true);
 
 function animate(timeline,param1, paramDevice1 = false ,param2,param3, param4 = false) {

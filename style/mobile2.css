@@ -66,6 +66,8 @@
                grid-template-columns: 80% !important;
                margin-top: 15%;
           }
+
+          #container8 img {width: 70% !important; }
 }
 
 @media only screen 
