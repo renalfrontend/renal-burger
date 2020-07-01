@@ -166,11 +166,17 @@ main section:last-child p {
      height: 100%;
 }
 
-#containerV3_2 aside p{ 
-     font-size: 1.3em;
-     line-height: 35px;
-     font-family: "IskraW01-Regular";
+#containerV3_2 aside h2{
      margin-top: 5%;
+     font-size: 1.7em;
+     font-family: "IskraW01-Regular";
+     margin-bottom: 0px;
+} 
+
+#containerV3_2 aside p{ 
+     font-size: 1em;
+     line-height: 35px;
+     font-family: sans-serif;
      font-weight: 100;
 }
 

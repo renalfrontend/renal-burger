@@ -7,6 +7,11 @@ body {
      height: auto;
 }
 
+::selection {
+     background: #e18d2a;
+     color: #ffffff !important;
+}
+
 /* ------------------------- CONTENT 1  ------------------------- */
 
 header {

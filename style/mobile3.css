@@ -65,8 +65,12 @@
                margin-top: 5%;
           }
 
+          #containerV3_2 aside h2{
+               font-size: 2em;
+           }
+
           #containerV3_2 aside p{ 
-               font-size: 1.5em;
+               font-size: 1.1em;
           }
 }
 
@@ -101,5 +105,13 @@
 
           #containerV3_2 section img{
                width: 60%;
+          }
+
+          #containerV3_2 aside h2{
+               font-size: 1.8em;
+          }
+
+          #containerV3_2 aside p{
+               font-size: 1em;
           }
 }
