@@ -107,6 +107,10 @@
                margin-top: 8%;
           }
 
+          #container6 section div:first-of-type{
+               height: 25vh !important;
+          }
+
           #container7 {
                width: 85%;
           }
